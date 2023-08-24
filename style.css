@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "feather";
+    src: url(/assets/feather.ttf);
+    font-weight: 400;
+}
+
+body {
+    font-family: "feather"
+}
+
+.notification{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+}
