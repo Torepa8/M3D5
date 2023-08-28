@@ -52,6 +52,17 @@ div.notification,div.user{
     opacity: 60%;
 }
 
+.card:hover{
+    transform: scale(1.10);
+    translate: 0px 30px;
+    box-shadow: 8px 0px 25px 1px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
 .card{
-    width: 100%;
+    transition: all 0.7s linear;
+}
+
+.carousel-control-prev,.carousel-control-next{
+    width: 4%;
 }
