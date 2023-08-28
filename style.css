@@ -4,6 +4,13 @@
     font-weight: 400;
 }
 
+@font-face {
+    font-family: "fa";
+    src: url(/assets/fa-regular-400.woff2);
+    font-weight: 400;
+}
+
+
 body {
     font-family: "feather"
 }
@@ -28,6 +35,23 @@ div.notification,div.user{
     border-radius: 50%;
 }
 
+.icon{
+    padding: 15px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:blanchedalmond
+}
+
 .container{
+    max-width: fit-content;
     background-color: rgb(102,102,255);
+}
+
+.op{
+    opacity: 60%;
+}
+
+.card{
+    width: 100%;
 }
